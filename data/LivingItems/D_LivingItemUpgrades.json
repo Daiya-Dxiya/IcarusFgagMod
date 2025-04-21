@@ -1,0 +1,12 @@
+{
+    "RowStruct": "/Script/Icarus.LivingItemUpgradeData",
+    "Defaults": {
+        "AlterationToApply": {
+            "RowName": "None",
+            "DataTableName": "D_Alterations"
+        },
+        "UpgradeCost": [],
+        "MeshCustomisations": []
+    },
+    "Rows": []
+}
