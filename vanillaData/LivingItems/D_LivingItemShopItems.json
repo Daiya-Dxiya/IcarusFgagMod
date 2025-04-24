@@ -1,0 +1,23 @@
+{
+    "RowStruct": "/Script/Icarus.LivingItemShopItemData",
+    "Defaults": {
+        "ItemTemplate": {
+            "RowName": "None",
+            "DataTableName": "D_ItemTemplate"
+        },
+        "Cost": [],
+        "ItemImage": "None",
+        "ItemBackground": "None",
+        "ShopBackground": "None",
+        "BossIcon": "None",
+        "Biomass": {
+            "RowName": "None",
+            "DataTableName": "D_ItemsStatic"
+        },
+        "RequiredPackageToPurchase": {
+            "RowName": "None",
+            "DataTableName": "D_DLCPackageData"
+        }
+    },
+    "Rows": []
+}
