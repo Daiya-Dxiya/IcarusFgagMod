@@ -4111,7 +4111,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_SteelRebar.ITEM_SteelRebar",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Steel_Rebar-Description\", \"Heavy, ribbed steel wire for reinforcing concrete.\")",
             "Weight": 25,
-            "MaxStack": 50
+            "MaxStack": 100
         },
         {
             "Name": "Item_Platinum_Bolt",

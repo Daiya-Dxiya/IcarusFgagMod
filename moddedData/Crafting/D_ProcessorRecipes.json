@@ -19689,7 +19689,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10,
+                    "Count": 1,
                     "DynamicProperties": []
                 }
             ],
@@ -19699,7 +19699,7 @@
                         "RowName": "Steel_Rebar",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1000,
+                    "Count": 100,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
