@@ -1177,7 +1177,7 @@
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
                 "(Value=\"BasePhysicalDamageResistance_%\")": 12,
-                "(Value=\"BaseColdResistance_%\")": 1512,
+                "(Value=\"BaseColdResistance_%\")": 15,
                 "(Value=\"BaseAnimalThreatModifier_+%\")": -15,
                 "(Value=\"BaseExposureResistance_+%\")": 6,
                 "(Value=\"BaseHeatResistance_%\")": 15
