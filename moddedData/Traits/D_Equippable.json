@@ -252,6 +252,9 @@
                 "(Value=\"BaseRifleAmmoCapacity_+%\")": 25,
                 "(Value=\"BaseRifleReloadSpeed_+%\")": 30,
                 "(Value=\"BaseRifleProjectileDamage_+%\")": 50,
+                "(Value=\"BasePistolAmmoCapacity_+%\")": 25,
+                "(Value=\"BasePistolReloadSpeed_+%\")": 30,
+                "(Value=\"BasePistolProjectileDamage_+%\")": 50,
                 "(Value=\"BaseFirearmItemWear_+%\")": -30,
                 "(Value=\"BaseBackpackSlots_+\")": 24
             },

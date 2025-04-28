@@ -465,6 +465,16 @@
                 }
             ],
             "MaximumStoredUnits": 12000
+        },
+        {
+            "Name": "Fillable_Oxygen_15L",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                {
+                    "Value": "Oxygen"
+                }
+            ],
+            "MaximumStoredUnits": 30000
         }
     ]
 }
