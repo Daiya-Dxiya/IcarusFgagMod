@@ -16591,7 +16591,7 @@
             },
             "Text": [
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-0\", \"It looks like the local wildlife have been eating that dead ape.\")",
-                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-1\", \"hat would explain their insides turning to goop. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-1\", \"That would explain their insides turning to goop. \")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-2\", \"YUM!\")"
             ]
         }
