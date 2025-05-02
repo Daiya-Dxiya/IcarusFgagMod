@@ -98,7 +98,30 @@
             },
             "Terrain": {
                 "RowName": "Terrain_017"
-            }
+            },
+            "ItemDisplays": [
+                {
+                    "IconOverride": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Rock_Golem_Core.T_ITEM_Rock_Golem_Core'",
+                    "ItemReward": {
+                        "RowName": "Rock_Golem_Core",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                },
+                {
+                    "IconOverride": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Rock_Golem_Fragment.T_ITEM_Rock_Golem_Fragment'",
+                    "ItemReward": {
+                        "RowName": "Rock_Golem_Fragment",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                },
+                {
+                    "IconOverride": "Texture2D'/Game/Assets/2DArt/UI/GreatHunt/T_GH_UI_WPN_QUARRITE.T_GH_UI_WPN_QUARRITE'",
+                    "ItemReward": {
+                        "RowName": "LegendaryWeapon_GolemGauntlet",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                }
+            ]
         },
         {
             "Name": "Ice_Mammoth",
@@ -120,7 +143,30 @@
             },
             "Terrain": {
                 "RowName": "Terrain_019"
-            }
+            },
+            "ItemDisplays": [
+                {
+                    "IconOverride": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Rock_Golem_Core.T_ITEM_Rock_Golem_Core'",
+                    "ItemReward": {
+                        "RowName": "Rock_Golem_Core",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                },
+                {
+                    "IconOverride": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Rock_Golem_Fragment.T_ITEM_Rock_Golem_Fragment'",
+                    "ItemReward": {
+                        "RowName": "Rock_Golem_Fragment",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                },
+                {
+                    "IconOverride": "Texture2D'/Game/Assets/2DArt/UI/GreatHunt/T_GH_UI_WPN_QUARRITE.T_GH_UI_WPN_QUARRITE'",
+                    "ItemReward": {
+                        "RowName": "LegendaryWeapon_GolemGauntlet",
+                        "DataTableName": "D_ItemsStatic"
+                    }
+                }
+            ]
         },
         {
             "Name": "Hammerhead_Slug",

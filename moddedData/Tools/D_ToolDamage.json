@@ -587,7 +587,7 @@
         },
         {
             "Name": "LegendaryWeapon_GolemGauntlet",
-            "Melee_Damage": 80,
+            "Melee_Damage": 160,
             "DamageVariationPercentage": 10,
             "Mining_Radius": 100
         }

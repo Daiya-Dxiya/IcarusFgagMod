@@ -13558,6 +13558,133 @@
             "RemovedOnDeath": false,
             "MergeType": "Replace",
             "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Stone",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Stone-ModifierName\", \"Imbued: Stone\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Metal",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Metal-ModifierName\", \"Imbued: Metal\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Oxite",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Oxite-ModifierName\", \"Imbued: Oxite\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Copper",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Copper-ModifierName\", \"Imbued: Copper\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Gold",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Gold-ModifierName\", \"Imbued: Gold\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Bauxite",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Bauxite-ModifierName\", \"Imbued: Aluminum\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Sulfur",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Sulfur-ModifierName\", \"Imbued: Sulfur\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Silica",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Silica-ModifierName\", \"Imbued: Silica\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Ice",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Ice-ModifierName\", \"Imbued: Ice\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Platinum",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Platinum-ModifierName\", \"Imbued: Platinum\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Titanium",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Titanium-ModifierName\", \"Imbued: Titanium\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Coal",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Coal-ModifierName\", \"Imbued: Coal\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Exotic_A",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Exotic_A-ModifierName\", \"Imbued: Exotics\")",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseFireDamage_+\")": 25,
+                "(Value=\"BasePoisonDamage_+\")": 25,
+                "(Value=\"BaseElectricDamage_+\")": 25,
+                "(Value=\"BaseExplosiveDamage_+\")": 25
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Salt",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Salt-ModifierName\", \"Imbued: Salt\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "VoxelCharged_Limestone",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_MetaResource.Icon_MetaResource'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"VoxelCharged_Limestone-ModifierName\", \"Imbued: Limestone\")",
+            "ModifierDescription": "",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true
         }
     ]
 }

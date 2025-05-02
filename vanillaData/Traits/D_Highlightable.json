@@ -1085,12 +1085,12 @@
         {
             "Name": "IM_Researcher_A_Healed",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_A_Healed-DisplayName\", \"Senior Researcher Avery\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_A_Healed-Description\", \"Worked on the Enzyme Formula which created the Iced Vicids.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_A_Healed-Description\", \"Worked on the Enzyme Formula which created the Iced Viscids.\")"
         },
         {
             "Name": "IM_Researcher_B",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_B-DisplayName\", \"Associate Researcher Felix\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_B-Description\", \"Badly hurt but rogue experiments. Will not survive without serious medical attention.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_B-Description\", \"Badly hurt by rogue experiments. Will not survive without serious medical attention.\")"
         },
         {
             "Name": "IM_Researcher_C",
