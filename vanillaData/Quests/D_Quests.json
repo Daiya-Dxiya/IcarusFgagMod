@@ -9070,7 +9070,7 @@
         {
             "Name": "STYX_D_Recovery_Site_Hostiles",
             "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Site_Hostiles.BPQ_STYX_D_Recovery_Site_Hostiles_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site_Hostiles-Description\", \"Destroy the Nearby Hyena Dens ({0}/{1})\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site_Hostiles-Description\", \"Destroy the Nearby Hyena Dens Using a Pickaxe ({0}/{1})\")"
         },
         {
             "Name": "STYX_D_Recovery_Site_Boss",
@@ -9221,7 +9221,7 @@
         {
             "Name": "STYX_A_Research_Nest_Den",
             "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Dens.BPQ_Styx_A_Research_Nest_Dens_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Den-Description\", \"Destroy the Nearby Wolf Dens ({0}/{1})\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Den-Description\", \"Destroy the Nearby Wolf Dens Using a Pickaxe ({0}/{1})\")"
         },
         {
             "Name": "STYX_A_Research_Nest_Setup",

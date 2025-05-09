@@ -12547,7 +12547,7 @@
             "Name": "IceMutation",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER__ICEMUTATION.T_ICON_MODIFIER__ICEMUTATION'",
             "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"IceMutation-ModifierName\", \"Ice Mutation\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"IceMutation-ModifierName\", \"Enzyme Enhancement\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"IceMutation-ModifierDescription\", \"This creature has been mutated by an unsanctioned experiment.\")",
             "CosmeticAttachComponent": "/Game/BP/Behaviours/Modifiers/CosmeticEffects/ModifierCosmetic_IceMutation.ModifierCosmetic_IceMutation_C",
             "AudioData": {
@@ -13512,6 +13512,21 @@
             "AuraRange": 500,
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
             "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.NPC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( FactionMission.NPC )"
+            },
             "bEffectsNPCs": false,
             "SaveToDatabase": false
         },
@@ -13519,12 +13534,13 @@
             "Name": "Enzyme_Elixir",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/T_ITEM_Enzyme_Elixir.T_ITEM_Enzyme_Elixir'",
             "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierName\", \"Enzyme Elixir\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierDescription\", \"Enzyme-Enhanced Creatures are Drawn to You.\")",
-            "MergeType": "Replace",
-            "EffectsCustomActor": {
-                "RowName": "Faction_Mission_NPC"
-            }
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierName\", \"Luriform Serum\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Enzyme_Elixir-ModifierDescription\", \"Agressive Enzyme-Enhanced Creatures are drawn to you.\")",
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierState_Enzyme_Elixir.BP_ModifierState_Enzyme_Elixir_C",
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace"
         },
         {
             "Name": "Heavy_Weapon_Reload_Slow",

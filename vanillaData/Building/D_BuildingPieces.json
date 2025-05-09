@@ -8131,7 +8131,7 @@
         {
             "Name": "Stone_Brick_Half_Pitch_UpperLeftWall",
             "Type": {
-                "RowName": "Wall_HalfPitch_Upper_L"
+                "RowName": "Wall_HalfPitch_Upper_R"
             },
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Roof_Half_Pitch_5.T_ITEM_Stone_Brick_Roof_Half_Pitch_5",
             "Blueprint": "/Game/BP/Building/ClayBrick/BP_Building_Wall_HalfPitch_Upper_Left_Clay_Brick.BP_Building_Wall_HalfPitch_Upper_Left_Clay_Brick_C",
@@ -8159,7 +8159,7 @@
         {
             "Name": "Stone_Brick_Half_Pitch_UpperRightWall",
             "Type": {
-                "RowName": "Wall_HalfPitch_Upper_R"
+                "RowName": "Wall_HalfPitch_Upper_L"
             },
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Brick_Roof_Half_Pitch_3.T_ITEM_Stone_Brick_Roof_Half_Pitch_3",
             "Blueprint": "/Game/BP/Building/ClayBrick/BP_Building_Wall_HalfPitch_Upper_Right_Clay_Brick.BP_Building_Wall_HalfPitch_Upper_Right_Clay_Brick_C",

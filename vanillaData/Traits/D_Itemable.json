@@ -6754,7 +6754,7 @@
         {
             "Name": "Item_Cave_Scanner",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cave_Scanner-DisplayName\", \"Cave Scanner\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Scanner_Cave.ITEM_Scanner_Cave",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Scanner_Cave.T_ITEM_Scanner_Cave",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cave_Scanner-Description\", \"A scanner that can locate caves within the surrounding area. Right click to toggle audible beeping.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cave_Scanner-FlavorText\", \"Making life easier, one piece of technology at a time.\")",
             "Weight": 1000
@@ -6762,7 +6762,7 @@
         {
             "Name": "Item_DeepOre_Scanner",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Scanner-DisplayName\", \"Deep Mining Ore Scanner\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Scanner_DeepOre.ITEM_Scanner_DeepOre",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Scanner_DeepOre.T_ITEM_Scanner_DeepOre",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Scanner-Description\", \"A scanner that can locate various deep ore deposits within the surrounding area\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_DeepOre_Scanner-FlavorText\", \"A truly remarkable piece of equipment.\")",
             "Weight": 1000
@@ -6770,7 +6770,7 @@
         {
             "Name": "Item_Meta_DeepOre_Scanner",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_DeepOre_Scanner-DisplayName\", \"Advanced Deep Mining Ore Scanner\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Scanner_DeepOre.ITEM_Meta_Scanner_DeepOre",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Meta_Scanner_DeepOre.T_ITEM_Meta_Scanner_DeepOre",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_DeepOre_Scanner-Description\", \"A scanner that can be programmed to locate specific deep ore deposits within the surrounding area\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_DeepOre_Scanner-FlavorText\", \"The best that money can buy.\")",
             "Weight": 1000
@@ -9360,7 +9360,8 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Landmine.ITEM_Landmine",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Landmine-Description\", \"Place to Trigger and Arm.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Landmine-FlavorText\", \"Dangerous... Very Dangerous....\")",
-            "Weight": 1000
+            "Weight": 1000,
+            "MaxStack": 20
         },
         {
             "Name": "Item_Carcass_WoolyZebra",
@@ -11165,7 +11166,7 @@
         {
             "Name": "Item_Meta_Fishfinder",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Fishfinder-DisplayName\", \"FISH\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Fishfinder.ITEM_Meta_Fishfinder",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Meta_Fishfinder.T_ITEM_Meta_Fishfinder",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Fishfinder-Description\", \"Fish Identification and Scanning Hardware. A handheld device that scans the waterbodies at the present location for fish like creatures.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Fishfinder-FlavorText\", \"A glorified fish finder.\")",
             "Weight": 1000
@@ -12503,7 +12504,7 @@
         {
             "Name": "Item_Meta_Creature_Scanner",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Creature_Scanner-DisplayName\", \"BEAST\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Meta_Creature_Scanner.T_ITEM_Meta_Creature_Scanner",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Creature_Scanner.T_ITEM_Creature_Scanner",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Creature_Scanner-Description\", \"Bio-Entity Analysis and Scanning Technology. A handheld device that scans nearby creatures for analysis and locates weaknesses.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Creature_Scanner-FlavorText\", \"A beauty of a device that will make surviving Icarus that much easier.\")",
             "Weight": 1000
@@ -15728,7 +15729,7 @@
         {
             "Name": "Item_Beacon_Tool",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Beacon_Tool-DisplayName\", \"Prototype Trail Beacon Tool\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Scanner_DeepOre.ITEM_Scanner_DeepOre",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Scanner_DeepOre.T_ITEM_Scanner_DeepOre",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Beacon_Tool-Description\", \"A tool to drop beacons to assist you in your exploration of Icarus.\")",
             "Weight": 1000
         },
@@ -19533,7 +19534,10 @@
         },
         {
             "Name": "Item_Armour_Stand",
-            "DisplayName": "INVTEXT(\"[DNT] Armor Stand\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Armour_Stand-DisplayName\", \"Wooden Armor Stand\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Armor_Stand.T_ITEM_Armor_Stand",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Armour_Stand-Description\", \"A nicely carved stand where armor can be displayed.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Armour_Stand-FlavorText\", \"Show off your armor or use it to quickly equip, up to you prospector.\")",
             "Weight": 15000
         },
         {
@@ -20685,6 +20689,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ResearchCrate-DisplayName\", \"Large Crate of Research\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_ResearchCrate.T_ITEM_ResearchCrate",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ResearchCrate-Description\", \"A large collection of research.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_ResearchCrate-FlavorText\", \"What secrets does this contain?\")",
             "Weight": 15000
         },
         {
@@ -20746,10 +20751,11 @@
             "MaxStack": 5
         },
         {
-            "Name": "Item_Mission_EDSCanister",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_EDSCanister-DisplayName\", \"Enzyme Formula Canister\")",
+            "Name": "Mission_Neurotoxic_Aerosol",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_Neurotoxic_Aerosol-DisplayName\", \"Neurotoxic Aerosol\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_EDS_Canister.T_ITEM_EDS_Canister",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_EDSCanister-Description\", \"A small canister of enzyme formula, primed for manual delivery.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_Neurotoxic_Aerosol-Description\", \"A small canister of an aerosol which will tranquilize any creature in the surrounding area, primed for manual delivery.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_Neurotoxic_Aerosol-FlavorText\", \"Can be deadly in the wrong hands.\")",
             "Weight": 1500
         },
         {
@@ -20758,6 +20764,14 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_Note-Description\", \"A note written by someone. Right click to read.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_Note-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_GH_IM_O1_Notice",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_Notice-DisplayName\", \"LAB-12 Emergency Procedures\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_Notice-Description\", \"A Location of a backup facility to retreat to in case of emergency. Right click to read.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_Notice-FlavorText\", \"What were they doing here?\")",
             "Weight": 500
         },
         {
@@ -21083,7 +21097,7 @@
         },
         {
             "Name": "Item_Carcass_Mammoth_Icy",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Icy-DisplayName\", \"Icy Mammoth Carcass\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Icy-DisplayName\", \"Enzyme-Enhanced Mammoth Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Mammoth.ITEM_AnimalCarcass_Mammoth",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Icy-Description\", \"A behemoth from prehistory.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Icy-FlavorText\", \"In the aftermath of failed terraforming, this mammoth variant was released illicitly by a disillusioned geneticist. It found an unexpected home in the newly arctified snowfields of Icarus.\")",
@@ -21163,11 +21177,19 @@
             "Weight": 20000
         },
         {
-            "Name": "Item_GH_IM_OutpostNote",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_OutpostNote-DisplayName\", \"Enzyme Research - Animal Experiments\")",
+            "Name": "Item_GH_IM_O1_StorageNote",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_StorageNote-DisplayName\", \"Enzyme Research - Directive\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_OutpostNote-Description\", \"Detailed Research Documents about experimental of enzymes on creatures. \")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_OutpostNote-FlavorText\", \"What were they doing here?\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_StorageNote-Description\", \"A document which explains the directive of the Enzyme Research on Prometheus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_O1_StorageNote-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_GH_IM_B_Note",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_B_Note-DisplayName\", \"Enzyme Research - Animal Experiments\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_B_Note-Description\", \"Detailed Research Documents about experimental of enzymes on creatures. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_IM_B_Note-FlavorText\", \"What were they doing here?\")",
             "Weight": 500
         },
         {
@@ -21205,7 +21227,7 @@
         {
             "Name": "Item_Recovery_Beacon_Tracker",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Recovery_Beacon_Tracker-DisplayName\", \"ECHO Device\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Scanner_DeepOre.ITEM_Meta_Scanner_DeepOre",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Recovery_Beacon_Tracker.T_ITEM_Recovery_Beacon_Tracker",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Recovery_Beacon_Tracker-Description\", \"Emergency Coordination for High-value Objects. Will detect and scan for emergency beacons in the nearby area.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Recovery_Beacon_Tracker-FlavorText\", \"The UDA Tags Everything.\")",
             "Weight": 1000
@@ -21227,8 +21249,8 @@
         },
         {
             "Name": "Item_Snow_Slug_Head",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Head-DisplayName\", \"Enzyme Enhanced Viscid\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_RockGolem_Juvie_Head.T_ITEM_RockGolem_Juvie_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Head-DisplayName\", \"Enzyme Enhanced Viscid Vestige\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Snow_Slug_Head.T_ITEM_Snow_Slug_Head",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Head-Description\", \"A preserved memory of a genetically spliced creature.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
             "Weight": 1000,
@@ -21236,8 +21258,8 @@
         },
         {
             "Name": "Item_Snow_Mammoth_Head",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Head-DisplayName\", \"Enzyme Enhanced Viscid\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_RockGolem_Juvie_Head.T_ITEM_RockGolem_Juvie_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Head-DisplayName\", \"Enzyme Enhanced Mammoth Vestige\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Snow_Mammoth_Head.T_ITEM_Snow_Mammoth_Head",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Head-Description\", \"A preserved memory of a genetically spliced creature.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
             "Weight": 1000,
@@ -21245,9 +21267,9 @@
         },
         {
             "Name": "Item_Enzyme_Elixir",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Elixir-DisplayName\", \"Enzyme Elixir\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Elixir-DisplayName\", \"Luriform Serum\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/T_ITEM_Enzyme_Elixir.T_ITEM_Enzyme_Elixir",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Elixir-Description\", \"When used Enzyme-Enhanced creatures will be drawn to you.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Elixir-Description\", \"When used Agressive Enzyme-Enhanced Creatures will be drawn to you.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Elixir-FlavorText\", \"You can try anything once.\")",
             "Weight": 500,
             "MaxStack": 10
@@ -21270,6 +21292,7 @@
         {
             "Name": "Item_Composite_Sign_Small",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Composite_Sign_Small-DisplayName\", \"Small Composite Sign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Composite_Sign_B.T_ITEM_Composite_Sign_B",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Composite_Sign_Small-Description\", \"A composite sign to display information.\")",
             "Weight": 1000,
             "MaxStack": 20
@@ -21277,6 +21300,7 @@
         {
             "Name": "Item_Concrete_Sign_Small",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Sign_Small-DisplayName\", \"Small Concrete Sign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Concrete_Sign_B.T_ITEM_Concrete_Sign_B",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Sign_Small-Description\", \"A concrete sign to display information.\")",
             "Weight": 1000,
             "MaxStack": 20
@@ -21284,6 +21308,7 @@
         {
             "Name": "Item_Iron_Sign_Small",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Sign_Small-DisplayName\", \"Small Iron Sign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Iron_Sign_B.T_ITEM_Iron_Sign_B",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Sign_Small-Description\", \"An iron sign to display information.\")",
             "Weight": 1000,
             "MaxStack": 20
@@ -21291,9 +21316,186 @@
         {
             "Name": "Item_Stone_Sign_Small",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Sign_Small-DisplayName\", \"Small Stone Sign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Stone_Sign_C.T_ITEM_Stone_Sign_C",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stone_Sign_Small-Description\", \"A stone sign to display information.\")",
             "Weight": 1000,
             "MaxStack": 20
+        },
+        {
+            "Name": "Item_Faction_Mission_DownLaser",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Faction_Mission_DownLaser-DisplayName\", \"Ground Penetrating Vapor Laser\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Faction_Mission_Laser.ITEM_Faction_Mission_Laser",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Faction_Mission_DownLaser-Description\", \"A high intensity strontium vapor laser prototype. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Faction_Mission_DownLaser-FlavorText\", \"Exactly why Group 15 had experimental weapons grade laser equipment lying around is anyone\\'s guess.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_GH_Ape_OutpostNote_1",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_1-DisplayName\", \"Garganutan Research Log 1.1.24\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_1-Description\", \"A log that\\'s been printed out. Right click to read.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_1-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_GH_Ape_OutpostNote_2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_2-DisplayName\", \"Garganutan Research Log 1.3.8\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_2-Description\", \"A log that\\'s been printed out. Right click to read.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_2-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_GH_Ape_OutpostNote_3",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_3-DisplayName\", \"Garganutan Research Log 1.5.12\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_3-Description\", \"A log that\\'s been printed out. Right click to read.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_3-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_GH_Ape_OutpostNote_4",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_4-DisplayName\", \"Garganutan Research Log 1.5.16\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_4-Description\", \"A log that\\'s been printed out. Right click to read.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_4-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_GH_Ape_OutpostNote_5",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_5-DisplayName\", \"Garganutan Research Log 1.6.2\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_5-Description\", \"A log that\\'s been printed out. Right click to read.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_GH_Ape_OutpostNote_5-FlavorText\", \"What were they doing here?\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_SandArmor_Head",
+            "DisplayName": "INVTEXT(\"[DNT] Sand Head Armor\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SandArmor_Chest",
+            "DisplayName": "INVTEXT(\"[DNT] Sand Chest Armor\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SandArmor_Feet",
+            "DisplayName": "INVTEXT(\"[DNT] Sand Feet Armor\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SandArmor_Arms",
+            "DisplayName": "INVTEXT(\"[DNT] Sand Arms Armor\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SandArmor_Legs",
+            "DisplayName": "INVTEXT(\"[DNT] Sand Legs Armor\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_SandArmor_Backpack",
+            "DisplayName": "INVTEXT(\"[DNT] Sand Backpack\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Snow_Mammoth_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Trophy-DisplayName\", \"Enzyme Enhanced Mammoth Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Snow_Mammoth_Trophy.T_ITEM_Snow_Mammoth_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Trophy-Description\", \"A mounted genetically spliced Mammoth head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Mammoth_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Snow_Slug_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Trophy-DisplayName\", \"Enzyme Enhanced Viscid Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Snow_Slug_Trophy.T_ITEM_Snow_Slug_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Trophy-Description\", \"A mounted genetically spliced Viscid head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Snow_Slug_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Mission_Enzyme_Propogation_Unit",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Enzyme_Propogation_Unit-DisplayName\", \"Enzyme Propagation Unit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Enzyme_Propagation_Unit.T_ITEM_Enzyme_Propagation_Unit",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Enzyme_Propogation_Unit-Description\", \"A device which disperses a modified terraforming enzyme into the surrounding environment for creature experimentation\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Enzyme_Propogation_Unit-FlavorText\", \"Enzymes are nothing but trouble...\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Mission_Enzyme_Propogation_Hub",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Enzyme_Propogation_Hub-DisplayName\", \"Enzyme Propagation Hub\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Enzyme_Propagation_Unit.T_ITEM_Enzyme_Propagation_Unit",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Enzyme_Propogation_Hub-Description\", \"A device which disperses a modified terraforming enzyme into the surrounding environment for creature experimentation\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Enzyme_Propogation_Hub-FlavorText\", \"Enzymes are nothing but trouble...\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Gas_Fireplace",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace-DisplayName\", \"Biofuel Fireplace\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace-Description\", \"A biiofuel powered fireplace, suitable for both basic cooking and heating.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace-FlavorText\", \"On Icarus, fire is both friend and foe.\")",
+            "Weight": 30000
+        },
+        {
+            "Name": "Item_Gas_Fireplace_Ext",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace_Ext-DisplayName\", \"Biofuel Chimney Extension\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace_Ext-Description\", \"Wide metal tubing helps the smoke escape the hearth.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace_Ext-FlavorText\", \"\\'Sometimes it felt like I had joined a rustic interior decoration cult\\' - M. Le Baroni\")",
+            "Weight": 6500
+        },
+        {
+            "Name": "Item_Gas_Fireplace_Cap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace_Cap-DisplayName\", \"Biofuel Chimney Cap\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gas_Fireplace_Cap-Description\", \"Vents and extractor fans help clear up any smoke from the burning.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Electric_Fireplace",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace-DisplayName\", \"Electric Fireplace\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace-Description\", \"An electric fireplace, suitable for both basic cooking and heating.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace-FlavorText\", \"On Icarus, fire is both friend and foe.\")",
+            "Weight": 30000
+        },
+        {
+            "Name": "Item_Electric_Fireplace_Ext",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace_Ext-DisplayName\", \"Electric Chimney Extension\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace_Ext-Description\", \"Wide metal tubing helps the smoke escape the hearth.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace_Ext-FlavorText\", \"\\'Sometimes it felt like I had joined a rustic interior decoration cult\\' - M. Le Baroni\")",
+            "Weight": 6500
+        },
+        {
+            "Name": "Item_Electric_Fireplace_Cap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace_Cap-DisplayName\", \"Electric Chimney Cap\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Fireplace_Cap-Description\", \"Vents and extractor fans help clear up any smoke from the burning.\")",
+            "Weight": 2000
+        },
+        {
+            "Name": "Item_Mission_Biotag",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Biotag-DisplayName\", \"Biotag\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/T_ITEM_Creature_Tracker.T_ITEM_Creature_Tracker",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Biotag-Description\", \"A small device which monitors biometics of the creature it is implanted into. \")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Biotag-FlavorText\", \"Covered in viscera.\")",
+            "Weight": 200,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Mission_Vesper_Cage",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Vesper_Cage-DisplayName\", \"Vesper Cage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Trap_Small_T4.T_ITEM_Animal_Trap_Small_T4",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Vesper_Cage-Description\", \"Can trap small creatures such as Vespers.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Vesper_Cage-FlavorText\", \"Gotcha!\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Enzyme_Virus",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Virus-DisplayName\", \"Enzyme Virus\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Synthetic_Enzymes.T_ITEM_Synthetic_Enzymes",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Virus-Description\", \"Modified Synthetic Enzymes for Experimentaiton.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Virus-FlavorText\", \"Gene Manipulation Huh?\")",
+            "Weight": 200,
+            "MaxStack": 100
         }
     ]
 }

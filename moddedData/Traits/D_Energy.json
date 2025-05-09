@@ -427,6 +427,11 @@
                 "RowName": "Electronic_Light_Brownout"
             },
             "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Enzyme_Propagation_Unit",
+            "AutoActivate": true,
+            "AutoShutoffFlowPercent": 99
         }
     ]
 }

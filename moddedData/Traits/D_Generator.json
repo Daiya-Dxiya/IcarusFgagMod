@@ -670,6 +670,19 @@
                     "DataTableName": "D_ItemsStatic"
                 }
             ]
+        },
+        {
+            "Name": "Gas_Fireplace",
+            "Resource": {
+                "Value": "Energy"
+            },
+            "GenerationRate": 500,
+            "GenerationRatio": 200,
+            "TransmutableResources": [
+                {
+                    "Value": "Biofuel"
+                }
+            ]
         }
     ]
 }

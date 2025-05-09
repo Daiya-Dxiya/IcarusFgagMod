@@ -548,10 +548,8 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
-                "(Value=\"BasePhysicalDamage_+%\")": 20,
                 "(Value=\"BaseMaximumHealth_+%\")": 25,
-                "(Value=\"BaseFrostDamage_+\")": 25,
-                "(Value=\"BaseFireDamageResistance_%\")": -25
+                "(Value=\"BaseFrostDamage_+\")": 25
             }
         },
         {
@@ -565,11 +563,20 @@
             "AdditionalStats": {
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
                 "(Value=\"BasePhysicalDamage_+%\")": 20,
-                "(Value=\"BaseMaximumHealth_+%\")": 5000,
+                "(Value=\"BaseMaximumHealth_+%\")": 1000,
                 "(Value=\"BaseFrostDamage_+\")": 25,
                 "(Value=\"BaseFireDamageResistance_%\")": -25,
                 "(Value=\"BaseCreatureSize_+%\")": 20,
                 "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "IceMammoth_FirstTime",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_FirstTime-CreatureNames-0\", \"Enzyme-Enhanced Mammoth\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn"
             }
         },
         {
@@ -578,12 +585,124 @@
                 "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_B-CreatureNames-0\", \"Experiment 004\")"
             ],
             "AISetup": {
-                "RowName": "Juvenile_Ape"
+                "RowName": "Juvenile_Ape_GH_ApeB"
             },
             "AdditionalStats": {
                 "(Value=\"BaseMaximumHealth_+%\")": 75,
                 "(Value=\"BaseMeleeDamage_+\")": 40,
                 "(Value=\"BaseAttacksCauseBleed_%\")": 100
+            }
+        },
+        {
+            "Name": "Ape_G",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ape_G-CreatureNames-0\", \"Empowered Experiment\")"
+            ],
+            "AISetup": {
+                "RowName": "Juvenile_Ape"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 75,
+                "(Value=\"BaseMeleeDamage_+\")": 40,
+                "(Value=\"BaseAttacksCauseWound_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 20
+            }
+        },
+        {
+            "Name": "Experiment_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Experiment_Wolf-CreatureNames-0\", \"EXP-WLF\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Snow_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
+                "(Value=\"BaseMaximumArmor_+\")": 500,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
+                "(Value=\"BaseCreatureSize_+%\")": 100
+            }
+        },
+        {
+            "Name": "Experiment_PolarBear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Experiment_PolarBear-CreatureNames-0\", \"EXP-PBR\")"
+            ],
+            "AISetup": {
+                "RowName": "Polar_Bear_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
+                "(Value=\"BaseMaximumArmor_+\")": 500,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
+                "(Value=\"BaseCreatureSize_+%\")": 25
+            }
+        },
+        {
+            "Name": "Experiment_Viscid",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Experiment_Viscid-CreatureNames-0\", \"EXP-VIS\")"
+            ],
+            "AISetup": {
+                "RowName": "Snow_Slug"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "IceMammoth_RimeTuskRun",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_RimeTuskRun-CreatureNames-0\", \"Rimetusk\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn_Rimetusk"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 1000,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "IceMammoth_MammothA",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_MammothA-CreatureNames-0\", \"BIO-RTX\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
+            }
+        },
+        {
+            "Name": "IceMammoth_MammothB",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceMammoth_MammothB-CreatureNames-0\", \"BIO-RTY\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_IceWorldSpawn"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
+                "(Value=\"BasePhysicalDamage_+%\")": 20,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseFrostDamage_+\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": -25,
+                "(Value=\"BaseCreatureSize_+%\")": 20,
+                "(Value=\"BaseMovementSpeed_+%\")": 20
             }
         }
     ]

@@ -3813,7 +3813,7 @@
         },
         {
             "Name": "Drill_Arrow",
-            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Mining.BP_BallisticBehaviour_Mining_C",
             "Damage": 85,
             "DamageVariationPercentage": 10,
             "bCanKillCam": true,

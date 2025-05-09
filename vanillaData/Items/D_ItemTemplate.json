@@ -3052,12 +3052,6 @@
             }
         },
         {
-            "Name": "Wood_Build_HalfPitch",
-            "ItemStaticData": {
-                "RowName": "Wood_Build_HalfPitch"
-            }
-        },
-        {
             "Name": "Wood_Build_HalfNormal",
             "ItemStaticData": {
                 "RowName": "Wood_Build_HalfNormal"
@@ -16134,7 +16128,7 @@
         {
             "Name": "Mission_EDSCanister",
             "ItemStaticData": {
-                "RowName": "Mission_EDSCanister"
+                "RowName": "Mission_Neurotoxic_Aerosol"
             }
         },
         {
@@ -16420,7 +16414,7 @@
             }
         },
         {
-            "Name": "Item_GH_IM_OutpostNote",
+            "Name": "Item_GH_IM_B_Note",
             "ItemStaticData": {
                 "RowName": "Collectable_Note"
             },
@@ -16429,7 +16423,7 @@
                     "Stat": {
                         "Value": "CollectableNote_Enum"
                     },
-                    "Value": 22
+                    "Value": 29
                 }
             ]
         },
@@ -16480,6 +16474,34 @@
                         "Value": "CollectableNote_Enum"
                     },
                     "Value": 20
+                }
+            ]
+        },
+        {
+            "Name": "Item_GH_IM_O1_Notice",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 28
+                }
+            ]
+        },
+        {
+            "Name": "Item_GH_IM_O1_StorageNote",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 22
                 }
             ]
         },
@@ -16535,6 +16557,208 @@
             "Name": "Stone_Sign_Small",
             "ItemStaticData": {
                 "RowName": "Stone_Sign_Small"
+            }
+        },
+        {
+            "Name": "Faction_Mission_DownLaser",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_DownLaser"
+            }
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_1",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 23
+                }
+            ]
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_2",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 24
+                }
+            ]
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_3",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 25
+                }
+            ]
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_4",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 26
+                }
+            ]
+        },
+        {
+            "Name": "GH_Ape_OutpostNote_5",
+            "ItemStaticData": {
+                "RowName": "Collectable_Note"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "CollectableNote_Enum"
+                    },
+                    "Value": 27
+                }
+            ]
+        },
+        {
+            "Name": "SandArmor_Head",
+            "ItemStaticData": {
+                "RowName": "SandArmor_Head"
+            }
+        },
+        {
+            "Name": "SandArmor_Chest",
+            "ItemStaticData": {
+                "RowName": "SandArmor_Chest"
+            }
+        },
+        {
+            "Name": "SandArmor_Feet",
+            "ItemStaticData": {
+                "RowName": "SandArmor_Feet"
+            }
+        },
+        {
+            "Name": "SandArmor_Arms",
+            "ItemStaticData": {
+                "RowName": "SandArmor_Arms"
+            }
+        },
+        {
+            "Name": "SandArmor_Legs",
+            "ItemStaticData": {
+                "RowName": "SandArmor_Legs"
+            }
+        },
+        {
+            "Name": "SandArmor_Backpack",
+            "ItemStaticData": {
+                "RowName": "SandArmor_Backpack"
+            }
+        },
+        {
+            "Name": "Snow_Mammoth_Trophy",
+            "ItemStaticData": {
+                "RowName": "Snow_Mammoth_Trophy"
+            }
+        },
+        {
+            "Name": "Snow_Slug_Trophy",
+            "ItemStaticData": {
+                "RowName": "Snow_Slug_Trophy"
+            }
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Unit",
+            "ItemStaticData": {
+                "RowName": "Mission_Enzyme_Propogation_Unit"
+            }
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Unit_Craftable",
+            "ItemStaticData": {
+                "RowName": "Mission_Enzyme_Propogation_Unit_Craftable"
+            }
+        },
+        {
+            "Name": "Gas_Fireplace",
+            "ItemStaticData": {
+                "RowName": "Gas_Fireplace"
+            }
+        },
+        {
+            "Name": "Gas_Fireplace_Ext",
+            "ItemStaticData": {
+                "RowName": "Gas_Fireplace_Ext"
+            }
+        },
+        {
+            "Name": "Gas_Fireplace_Cap",
+            "ItemStaticData": {
+                "RowName": "Gas_Fireplace_Cap"
+            }
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Hub",
+            "ItemStaticData": {
+                "RowName": "Mission_Enzyme_Propogation_Hub"
+            }
+        },
+        {
+            "Name": "Electric_Fireplace",
+            "ItemStaticData": {
+                "RowName": "Electric_Fireplace"
+            }
+        },
+        {
+            "Name": "Electric_Fireplace_Ext",
+            "ItemStaticData": {
+                "RowName": "Electric_Fireplace_Ext"
+            }
+        },
+        {
+            "Name": "Electric_Fireplace_Cap",
+            "ItemStaticData": {
+                "RowName": "Electric_Fireplace_Cap"
+            }
+        },
+        {
+            "Name": "Mission_Biotag",
+            "ItemStaticData": {
+                "RowName": "Mission_Biotag"
+            }
+        },
+        {
+            "Name": "Mission_Neurotoxic_Aerosol",
+            "ItemStaticData": {
+                "RowName": "Mission_Neurotoxic_Aerosol"
+            }
+        },
+        {
+            "Name": "Mission_Vesper_Cage",
+            "ItemStaticData": {
+                "RowName": "Mission_Vesper_Cage"
+            }
+        },
+        {
+            "Name": "Mission_Enzyme_Virus",
+            "ItemStaticData": {
+                "RowName": "Mission_Enzyme_Virus"
             }
         }
     ]

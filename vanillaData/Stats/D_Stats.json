@@ -17344,7 +17344,7 @@
         },
         {
             "Name": "WorldApeApeEscape_?",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldApeApeEscape_?-Title\", \"Players do greater damage to Great Ape Boss\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WorldApeApeEscape_?-Title\", \"Players do greater damage to Garganutan Ape Boss\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}\")",
             "NegativeTitleFormat": "INVTEXT(\"{0}\")",
             "bIsWorldStat": true,
@@ -17375,6 +17375,14 @@
         {
             "Name": "ShouldPreventDeath_?",
             "Title": "NSLOCTEXT(\"D_Stats\", \"ShouldPreventDeath_?-Title\", \"Should Prevent Death\")",
+            "StatCategory": {
+                "RowName": "AI"
+            },
+            "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "ContainsVesper_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ContainsVesper_?-Title\", \"Object Contains a Vesper\")",
             "StatCategory": {
                 "RowName": "AI"
             },

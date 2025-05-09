@@ -783,7 +783,7 @@
         {
             "Name": "Hyena_Den",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den-DisplayName\", \"Hyena Den\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den-Description\", \"A den full of Hyena\\'s. Destroy it before more come out.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den-Description\", \"A den full of Hyenas. Destroy it with a pickaxe before more come out.\")"
         },
         {
             "Name": "Hyena_Den_Alpha",
@@ -793,7 +793,7 @@
         {
             "Name": "Wolf_Den",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Wolf_Den-DisplayName\", \"Wolf Den\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Wolf_Den-Description\", \"A den full of Wolves. Destroy it before more come out.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Wolf_Den-Description\", \"A den full of Wolves. Destroy it with a pickaxe before more come out.\")"
         },
         {
             "Name": "Wild_Kiwi_Nest",
@@ -985,7 +985,7 @@
         {
             "Name": "Quarrite_Burrow",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Quarrite_Burrow-DisplayName\", \"Young Quarrite Burrow\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Quarrite_Burrow-Description\", \"An entrance to an underground tunnel network. Attack to collapse the entrance preventing more Young Quarrite from reaching the surface.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Quarrite_Burrow-Description\", \"The entrance to an underground tunnel network. Damage with a pickaxe to collapse the entrance, preventing more Young Quarrites from reaching the surface.\")"
         },
         {
             "Name": "Mining_Outpost_Log",
@@ -1025,7 +1025,7 @@
         {
             "Name": "Ape_Jr_Den",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Ape_Jr_Den-DisplayName\", \"Garganutan Jr Lair\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Ape_Jr_Den-Description\", \"An entrance to a creature\\'s Lair. Attack to collapse the entrance preventing more Garganutan Jr from reaching the surface.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Ape_Jr_Den-Description\", \"An entrance to a creature\\'s Lair. Damage with a pickaxe to collapse the entrance, preventing more juvenile Garganutan from reaching the surface.\")"
         },
         {
             "Name": "Hammerhead_Carcass",
@@ -1090,17 +1090,37 @@
         {
             "Name": "IM_Researcher_B",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_B-DisplayName\", \"Associate Researcher Felix\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_B-Description\", \"Badly hurt by rogue experiments. Will not survive without serious medical attention.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_B-Description\", \"Badly hurt by rogue experiments. Will not survive without serious medical attention. Place in Stasis Bag and Evac.\")"
         },
         {
             "Name": "IM_Researcher_C",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_C-DisplayName\", \"Research Assistant Eloise\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_C-Description\", \"Unfortunately did not Survive. \")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_Researcher_C-Description\", \"Unfortunately did not Survive their encounter with the Research Subjects.\")"
         },
         {
             "Name": "Ape_EatenRemains",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Ape_EatenRemains-DisplayName\", \"Eaten Remains\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Ape_EatenRemains-Description\", \"The devoured remains of an escaped ape.\")"
+        },
+        {
+            "Name": "Ape_OutpostCage",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Ape_OutpostCage-DisplayName\", \"Caged Experiment\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Ape_OutpostCage-Description\", \"A trapped experiment, being cared for by a lone scientist.\")"
+        },
+        {
+            "Name": "Exotic_Shards",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Exotic_Shards-DisplayName\", \"Exotic Shards\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Exotic_Shards-Description\", \"A large cluster of unearthed Exotic matter.\")"
+        },
+        {
+            "Name": "IM_ArcticVesper",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IM_ArcticVesper-DisplayName\", \"Incapacitated Vesper\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_ArcticVesper-Description\", \"Badly hurt by a Neurotoxic Aerosol. Will not survive without serious medical attention. Stabalise with an ECHO device.\")"
+        },
+        {
+            "Name": "IM_ArcticVesper_Stabilized",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"IM_ArcticVesper_Stabilized-DisplayName\", \"Stabalized Vesper\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"IM_ArcticVesper_Stabilized-Description\", \"Badly hurt by a Neurotoxic Aerosol. Place in a Vesper Cage to Transport.\")"
         }
     ]
 }

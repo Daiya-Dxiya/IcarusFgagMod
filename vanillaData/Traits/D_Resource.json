@@ -626,6 +626,13 @@
             "EnergyFlow": {
                 "RowName": "Enzyme_Cannon"
             }
+        },
+        {
+            "Name": "Enzyme_Propagation_Unit",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Enzyme_Propagation_Unit"
+            }
         }
     ]
 }
