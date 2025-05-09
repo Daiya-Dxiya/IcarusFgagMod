@@ -16017,6 +16017,7 @@
         {
             "Name": "GH_APE_C2_4",
             "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_C2_4.GH_APE_C2_4",
+            "Delay": 2,
             "Speaker": {
                 "RowName": "Agent"
             },
@@ -16332,6 +16333,7 @@
         {
             "Name": "GH_APE_F_4",
             "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_F_4.GH_APE_F_4",
+            "Delay": 3,
             "Speaker": {
                 "RowName": "Agent"
             },
@@ -16348,6 +16350,7 @@
         {
             "Name": "GH_APE_OPT1_1",
             "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_OPT1_1.GH_APE_OPT1_1",
+            "Delay": 2,
             "Speaker": {
                 "RowName": "Agent"
             },
@@ -16593,6 +16596,229 @@
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-0\", \"It looks like the local wildlife have been eating that dead ape.\")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-1\", \"That would explain their insides turning to goop. \")",
                 "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_D2_1_2-Text-2\", \"YUM!\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD_B",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD_B.GH_APE_ADD_B",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_B-Text-0\", \"This creature seems to have lost a lot of blood, can\\'t you go any faster\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD_D1",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD_D.GH_APE_ADD_D",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D1-Text-0\", \"That thing isn\\'t going to tame itself, perhaps you should bribe it with food.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D1-Text-1\", \" I\\'ve heard that this method also works on humans.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD_D2",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD_D2.GH_APE_ADD_D2",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D2-Text-0\", \"Ah there it is, looks like they\\'re broadcasting coordinates for any new drop sites.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D2-Text-1\", \"You\\'d better get moving.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD_D3",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD_D3.GH_APE_ADD_D3",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D3-Text-0\", \"Hmm, you call that a camp? No wonder you humans are so miserable all the time.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D3-Text-1\", \"You\\'re practically living in squalor.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D3-Text-2\", \"The black market likes to keep traitors waiting, so why don\\'t you use this time to hone your home improvement skills.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD_D4",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD_D4.GH_APE_ADD_D4",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D4-Text-0\", \"Hmm, that\\'s odd. The signal you should use for indicating you\\'d like to trade is... to tame a Tusker? \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D4-Text-1\", \"They must be messing with you.\")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD_D4-Text-2\", \"Only one way to find out, I guess.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_C1",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_C_1.GH_APE_ADD2_C_1",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_C1-Text-0\", \"Don\\'t even think about asking me where we got this laser from. It\\'s a rental. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_C1-Text-1\", \"Totally legal, definitely not stolen.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_C2",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_C_2.GH_APE_ADD2_C_2",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_C2-Text-0\", \"I SAID it\\'s a rental, if you destroy it you owe me the deposit. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_C2-Text-1\", \"Don\\'t let it get torn apart.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_E1",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_E_1.GH_APE_ADD2_E_1",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_E1-Text-0\", \"Okay meatbag, you\\'ll need to conduct tests in three different environments. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_E1-Text-1\", \"Hope you\\'ve brushed up on your Greek.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_E2",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_E_2.GH_APE_ADD2_E_2",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_E2-Text-0\", \"What? Did you want me to hold your hand while you work? \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_E2-Text-1\", \"Hurry up.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_E3",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_E_3.GH_APE_ADD2_E_3",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_E3-Text-0\", \"Oh good, I mean, look out.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_F1",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_F_1.GH_APE_ADD2_F_1",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_F1-Text-0\", \"I am for once immensely grateful that I am lacking an olfactory chip. \")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_F2",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_F_2.GH_APE_ADD2_F_2",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_F2-Text-0\", \"Based on the state of this place I\\'d wager that without the correct supplies you\\'ll die in minutes. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_F2-Text-1\", \"What a shame that would be.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G1",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_1.GH_APE_ADD2_G_1",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G1-Text-0\", \"Hmm, what\\'s this? They were trying to domesticate this one? \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G1-Text-1\", \"The depth of human brilliance will never cease to amaze me. \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G1-Text-2\", \"See if you can find any research left behind.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G2",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_2.GH_APE_ADD2_G_2",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G2-Text-0\", \"Did they really think a few morsels of the right food would cause this creature to bend to their whims? \")",
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G2-Text-1\", \"You want to try? Go ahead.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G3",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_3.GH_APE_ADD2_G_3",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G3-Text-0\", \"Really? Corn? \")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G4",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_4.GH_APE_ADD2_G_4",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G4-Text-0\", \"Meat is certainly more fitting.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G5",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_5.GH_APE_ADD2_G_5",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G5-Text-0\", \"Are you really this stupid or is it all an act?\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G6",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_6.GH_APE_ADD2_G_6",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G6-Text-0\", \"I have no words to describe your ineptitude.\")"
+            ]
+        },
+        {
+            "Name": "GH_APE_ADD2_G7",
+            "Audio": "/Game/FMOD/Events/Dialogue/GREAT_HUNTS/GH_APE_ADD2_G_6.GH_APE_ADD2_G_6",
+            "Delay": 2,
+            "Speaker": {
+                "RowName": "Agent"
+            },
+            "Text": [
+                "NSLOCTEXT(\"D_Dialogue\", \"GH_APE_ADD2_G7-Text-0\", \"Oh look, it got out. Perhaps its favourite food is actually human flesh. Wouldn\\'t that be fun?\")"
             ]
         }
     ]

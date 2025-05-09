@@ -1806,7 +1806,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 6,
+            "StartingSlots": 9,
             "SlotOverrides": [
                 {
                     "Query": {
@@ -1848,7 +1848,7 @@
                         "RowName": "Any_Backpack",
                         "DataTableName": "D_TagQueries"
                     },
-                    "Location": 5
+                    "Location": 8
                 }
             ]
         },

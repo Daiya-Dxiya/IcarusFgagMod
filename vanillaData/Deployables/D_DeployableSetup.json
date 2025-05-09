@@ -587,6 +587,7 @@
         {
             "Name": "Fireplace_Chimney_Cap",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Cap.BP_Fireplace_Chimney_Cap_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Fireplace_Chimney_Cap-DeployableName\", \"Full Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chimney_Extension_Cap.SM_DEP_Chimney_Extension_Cap",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
             "SnapToSurfaceNormal": false,
@@ -606,6 +607,7 @@
         {
             "Name": "Fireplace_Chimney_Cap_Half",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Fireplace_Chimney_Cap_Half.BP_Fireplace_Chimney_Cap_Half_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Fireplace_Chimney_Cap_Half-DeployableName\", \"Half Height\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chimney_Extension_Cap_SML_01.SM_DEP_Chimney_Extension_Cap_SML_01",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
             "SnapToSurfaceNormal": false,
@@ -1763,7 +1765,7 @@
         {
             "Name": "Faction_Mission_Drill",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Faction_Mission_Drill.BP_Faction_Mission_Drill_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_STD_Extractor_Folded.SM_DEP_STD_Extractor_Folded",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Disruption_Base.SM_DEP_Disruption_Base",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
             "MaxSurfaceSnapAngle": 180,
             "SupportsCustomRotation": false,
@@ -6251,7 +6253,7 @@
             "Name": "Gold_Fireplace",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gold_Fireplace.BP_Gold_Fireplace_C",
             "PreviewStaticMesh": "/Game/ASS/DCO/ArtDeco/Fireplace_ArtDeco/SM_DCO_Fireplace_Artdeco.SM_DCO_Fireplace_ArtDeco",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_GOLD.SFX_DEPLOY_GOLD",
             "SnapToSurfaceNormal": false,
             "SupportsCustomRotation": false,
             "SnapBehaviour": "SnapPlacementOnly",
@@ -6272,7 +6274,7 @@
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gold_Fireplace_Ext.BP_Gold_Fireplace_Ext_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Gold_Fireplace_Ext.T_ITEM_Gold_Fireplace_Ext",
             "PreviewStaticMesh": "/Game/ASS/DCO/ArtDeco/Fireplace_ArtDeco/SM_DCO_Fireplace_Extention_ArtDeco.SM_DCO_Fireplace_Extention_ArtDeco",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_GOLD.SFX_DEPLOY_GOLD",
             "SnapToSurfaceNormal": false,
             "SupportsCustomRotation": false,
             "SnapBehaviour": "SnapPlacementOnly",
@@ -6292,7 +6294,7 @@
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gold_Fireplace_Ext2.BP_Gold_Fireplace_Ext2_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Gold_Fireplace_Ext1.T_ITEM_Gold_Fireplace_Ext1",
             "PreviewStaticMesh": "/Game/ASS/DCO/ArtDeco/Fireplace_ArtDeco/SM_DCO_Fireplace_Middle_ArtDeco.SM_DCO_Fireplace_Middle_ArtDeco",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_GOLD.SFX_DEPLOY_GOLD",
             "SnapToSurfaceNormal": false,
             "SupportsCustomRotation": false,
             "SnapBehaviour": "SnapPlacementOnly",
@@ -6311,6 +6313,7 @@
             "Name": "Gold_Fireplace_Cap",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gold_Fireplace_Cap.BP_Gold_Fireplace_Cap_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fireplace_Chimney_Cap1.T_ITEM_Fireplace_Chimney_Cap1",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Gold_Fireplace_Cap-DeployableName\", \"Full Height\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/ArtDeco/Fireplace_ArtDeco/SM_DCO_Fireplace_Cap_ArtDeco.SM_DCO_Fireplace_Cap_ArtDeco",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
             "SnapToSurfaceNormal": false,
@@ -6331,6 +6334,7 @@
             "Name": "Gold_Fireplace_Cap_Half",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gold_Fireplace_Cap_Half.BP_Gold_Fireplace_Cap_Half_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fireplace_Chimney_Cap2.T_ITEM_Fireplace_Chimney_Cap2",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Gold_Fireplace_Cap_Half-DeployableName\", \"Half Height\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/ArtDeco/Fireplace_ArtDeco/SM_DCO_Fireplace_Cap_Half_ArtDeco.SM_DCO_Fireplace_Cap_Half_ArtDeco",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
             "SnapToSurfaceNormal": false,
@@ -8688,10 +8692,9 @@
             "Name": "Armour_Stand",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_ArmourStand.BP_ArmourStand_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Armour_Stand-DeployableName\", \"None\")",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Icebox.SM_DEP_Icebox",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Armor_Stand_T2/SM_DEP_Armor_Stand_T2.SM_DEP_Armor_Stand_T2",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
-            "SnapToSurfaceNormal": false,
-            "SupportsCustomRotation": false
+            "SnapToSurfaceNormal": false
         },
         {
             "Name": "Extinguisher_WallMount",
@@ -9256,12 +9259,17 @@
             "WorldPlacementType": "WallPlacement"
         },
         {
-            "Name": "Mission_EDSCanister",
+            "Name": "Mission_Neurotoxic_Aerosol",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_EDSCanister.BP_EDSCanister_C",
             "PreviewStaticMesh": "/Game/ASS/ITM/MetaConsumable/SM_ITM_Meta_LiquidConsumable_v3.SM_ITM_Meta_LiquidConsumable_v3",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_CANTEEN_PICKUP.SFX_CANTEEN_PICKUP",
             "SnapToSurfaceNormal": false,
-            "bCanAffectNavigation": false
+            "MaxSurfaceSnapAngle": 100,
+            "WorldPlacementType": "GroundOrWallPlacement",
+            "bCanAffectNavigation": false,
+            "DeployCollisionLocationOffset": {
+                "Z": -50
+            }
         },
         {
             "Name": "Dead_Researcher_A",
@@ -9938,7 +9946,7 @@
         {
             "Name": "Composite_Sign_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Composite_Sign_Small.BP_Composite_Sign_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Composite_Sign_B.T_ITEM_Composite_Sign_B",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Composite_Sign_Small-DeployableName\", \"Floor Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Composite_B.SM_DCO_SIgn_Composite_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -9946,7 +9954,7 @@
         {
             "Name": "Composite_Wall_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Composite_Wall_Sign.BP_Composite_Wall_Sign_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Wall_Sign.ITEM_Wood_Wall_Sign",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Composite_Sign_A.T_ITEM_Composite_Sign_A",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Composite_Wall_Sign-DeployableName\", \"Wall Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Composite_A.SM_DCO_SIgn_Composite_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
@@ -9958,7 +9966,7 @@
         {
             "Name": "Composite_Sign_Small_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Composite_Sign_Angle_Small.BP_Composite_Sign_Angle_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Composite_Sign_D.T_ITEM_Composite_Sign_D",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Composite_Sign_Small_Angled-DeployableName\", \"Small Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Composite_D.SM_DCO_SIgn_Composite_D",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -9966,7 +9974,7 @@
         {
             "Name": "Composite_Sign_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Composite_Sign_Angle.BP_Composite_Sign_Angle_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Composite_Sign_C.T_ITEM_Composite_Sign_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Composite_Sign_Angled-DeployableName\", \"Tall Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Composite_C.SM_DCO_SIgn_Composite_C",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -9974,7 +9982,7 @@
         {
             "Name": "Concrete_Sign_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Concrete_Sign_Small.BP_Concrete_Sign_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Concrete_Sign_B.T_ITEM_Concrete_Sign_B",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Concrete_Sign_Small-DeployableName\", \"Floor Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Concrete_B.SM_DCO_SIgn_Concrete_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -9982,7 +9990,7 @@
         {
             "Name": "Concrete_Wall_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Concrete_Wall_Sign.BP_Concrete_Wall_Sign_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Wall_Sign.ITEM_Wood_Wall_Sign",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Concrete_Sign_A.T_ITEM_Concrete_Sign_A",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Concrete_Wall_Sign-DeployableName\", \"Wall Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Concrete_A.SM_DCO_SIgn_Concrete_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
@@ -9994,7 +10002,7 @@
         {
             "Name": "Concrete_Sign_Small_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Concrete_Sign_Angle_Small.BP_Concrete_Sign_Angle_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Concrete_Sign_D.T_ITEM_Concrete_Sign_D",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Concrete_Sign_Small_Angled-DeployableName\", \"Small Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Concrete_D.SM_DCO_SIgn_Concrete_D",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10002,7 +10010,7 @@
         {
             "Name": "Concrete_Sign_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Concrete_Sign_Angle.BP_Concrete_Sign_Angle_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Concrete_Sign_C.T_ITEM_Concrete_Sign_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Concrete_Sign_Angled-DeployableName\", \"Tall Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Concrete_C.SM_DCO_SIgn_Concrete_C",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10010,7 +10018,7 @@
         {
             "Name": "Iron_Sign_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Iron_Sign_Small.BP_Iron_Sign_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Iron_Sign_B.T_ITEM_Iron_Sign_B",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Iron_Sign_Small-DeployableName\", \"Floor Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Iron_B.SM_DCO_SIgn_Iron_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10018,7 +10026,7 @@
         {
             "Name": "Iron_Wall_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Iron_Wall_Sign.BP_Iron_Wall_Sign_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Wall_Sign.ITEM_Wood_Wall_Sign",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Iron_Sign_A.T_ITEM_Iron_Sign_A",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Iron_Wall_Sign-DeployableName\", \"Wall Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Iron_A.SM_DCO_SIgn_Iron_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
@@ -10033,7 +10041,7 @@
         {
             "Name": "Iron_Sign_Small_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Iron_Sign_Angle_Small.BP_Iron_Sign_Angle_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Iron_Sign_D.T_ITEM_Iron_Sign_D",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Iron_Sign_Small_Angled-DeployableName\", \"Small Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Iron_D.SM_DCO_SIgn_Iron_D",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10041,7 +10049,7 @@
         {
             "Name": "Iron_Sign_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Iron_Sign_Angle.BP_Iron_Sign_Angle_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Iron_Sign_C.T_ITEM_Iron_Sign_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Iron_Sign_Angled-DeployableName\", \"Tall Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Iron_C.SM_DCO_SIgn_Iron_C",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10049,7 +10057,7 @@
         {
             "Name": "Stone_Wall_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Stone_Wall_Sign.BP_Stone_Wall_Sign_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Wall_Sign.ITEM_Wood_Wall_Sign",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Stone_Sign_A.T_ITEM_Stone_Sign_A",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Stone_Wall_Sign-DeployableName\", \"Wall Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Stone_A.SM_DCO_SIgn_Stone_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
@@ -10061,7 +10069,7 @@
         {
             "Name": "Stone_Sign_Small_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Stone_Sign_Angle_Small.BP_Stone_Sign_Angle_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Stone_Sign_D.T_ITEM_Stone_Sign_D",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Stone_Sign_Small_Angled-DeployableName\", \"Small Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Stone_B.SM_DCO_SIgn_Stone_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
@@ -10069,10 +10077,249 @@
         {
             "Name": "Stone_Sign_Angled",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Stone_Sign_Angle.BP_Stone_Sign_Angle_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small.ITEM_Wood_Sign_Small",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Stone_Sign_C.T_ITEM_Stone_Sign_C",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Stone_Sign_Angled-DeployableName\", \"Tall Angled Sign\")",
             "PreviewStaticMesh": "/Game/ASS/DCO/Signs/SM_DCO_SIgn_Stone_C.SM_DCO_SIgn_Stone_C",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
+        },
+        {
+            "Name": "Faction_Mission_DownLaser",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Faction_Mission_Laser_Ground.BP_Faction_Mission_Laser_Ground_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Disruption_Heat_Assembled.SM_DEP_Disruption_Heat_Assembled",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_DRILL_DEPLOY.SFX_DEP_DRILL_DEPLOY",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "ApeDen"
+            ],
+            "SnapSocketsOrTags": [
+                "GroundLaser_Socket"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Snow_Mammoth_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Mammoth_Icy_Trophy.BP_Mammoth_Icy_Trophy_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_mammoth/SM_DEP_Trophy_Mammoth.SM_DEP_Trophy_Mammoth",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Snow_Slug_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Ice_Viscid.BP_Trophy_Ice_Viscid_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_trophy_Swamp_Viscid/SM_DEP_Trophy_Ice_Viscid.SM_DEP_Trophy_Ice_Viscid",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Unit",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Enzyme_Disperser_World.BP_Enzyme_Disperser_World_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Enzyme_Propagation_Unit/SM_DEP_Enzyme_Propagation_Unit.SM_DEP_Enzyme_Propagation_Unit",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_DRILL_DEPLOY.SFX_DEP_DRILL_DEPLOY",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Unit_Craftable",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Enzyme_Disperser.BP_Enzyme_Disperser_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Enzyme_Propagation_Unit/SM_DEP_Enzyme_Propagation_Unit.SM_DEP_Enzyme_Propagation_Unit",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_DRILL_DEPLOY.SFX_DEP_DRILL_DEPLOY",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Hub",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Enzyme_Disperser_Hub.BP_Enzyme_Disperser_Hub_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_T4_Communication_Device.SM_DEP_T4_Communication_Device",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_DRILL_DEPLOY.SFX_DEP_DRILL_DEPLOY",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Gas_Fireplace",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gas_Fireplace.BP_Gas_Fireplace_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Gas/SM_DEP_Fireplace_Gas.SM_DEP_Fireplace_Gas",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "FireplaceSocket1",
+                "FireplaceSocket2",
+                "FireplaceSocket3",
+                "FireplaceSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "DeployPlacementOffset": {
+                "X": 135
+            }
+        },
+        {
+            "Name": "Gas_Fireplace_Ext",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gas_Fireplace_Ext.BP_Gas_Fireplace_Ext_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Gas/SM_DEP_Fireplace_Gas_Extension.SM_DEP_Fireplace_Gas_Extension",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Gas_Fireplace",
+                "Gas_Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Gas_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Gas_Fireplace_Cap",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gas_Fireplace_Cap.BP_Gas_Fireplace_Cap_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Gas_Fireplace_Cap-DeployableName\", \"Full Height\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Gas/SM_DEP_Fireplace_Gas_CAP_LRG.SM_DEP_Fireplace_Gas_CAP_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Gas_Fireplace",
+                "Gas_Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Gas_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Gas_Fireplace_Cap_Half",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Gas_Fireplace_Cap_Half.BP_Gas_Fireplace_Cap_Half_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Gas_Fireplace_Cap_Half-DeployableName\", \"Half Height\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Gas/SM_DEP_Fireplace_Gas_CAP.SM_DEP_Fireplace_Gas_CAP",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Gas_Fireplace",
+                "Gas_Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Gas_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Electric_Fireplace",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Electric_Fireplace.BP_Electric_Fireplace_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Electric/SM_DEP_Fireplace_Electric.SM_DEP_Fireplace_Electric",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "FireplaceSocket1",
+                "FireplaceSocket2",
+                "FireplaceSocket3",
+                "FireplaceSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "DeployPlacementOffset": {
+                "X": 135
+            }
+        },
+        {
+            "Name": "Electric_Fireplace_Ext",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Electric_Fireplace_Ext.BP_Electric_Fireplace_Ext_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Electric/SM_DEP_Fireplace_Electric_Extension.SM_DEP_Fireplace_Electric_Extension",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Electric_Fireplace",
+                "Electric_Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Electric_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Electric_Fireplace_Cap",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Electric_Fireplace_Cap.BP_Electric_Fireplace_Cap_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Electric_Fireplace_Cap-DeployableName\", \"Full Height\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Electric/SM_DEP_Fireplace_Electric_CAP_LRG.SM_DEP_Fireplace_Electric_CAP_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Electric_Fireplace",
+                "Electric_Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Electric_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Electric_Fireplace_Cap_Half",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Electric_Fireplace_Cap_Half.BP_Electric_Fireplace_Cap_Half_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Electric_Fireplace_Cap_Half-DeployableName\", \"Half Height\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fireplace_Electric/SM_DEP_Fireplace_Electric_CAP.SM_DEP_Fireplace_Electric_CAP",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Electric_Fireplace",
+                "Electric_Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Electric_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Mission_Vesper_Cage",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_VesperCage.BP_VesperCage_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Trap_Small_T4.SM_DEP_Trap_Small_T4",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "IgnoreCollisionWhenSnapped": true,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
         }
     ]
 }

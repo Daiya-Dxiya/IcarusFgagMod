@@ -11231,7 +11231,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14450,
+                "X": 14700,
                 "Y": 450
             },
             "Size": {
@@ -15134,7 +15134,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13400,
+                "X": 13650,
                 "Y": 1150
             },
             "Size": {
@@ -15184,7 +15184,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15100,
+                "X": 15350,
                 "Y": 850
             },
             "Size": {
@@ -15208,7 +15208,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15100,
+                "X": 15350,
                 "Y": 450
             },
             "Size": {
@@ -15354,7 +15354,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13200,
+                "X": 13450,
                 "Y": 100
             },
             "Size": {
@@ -15378,7 +15378,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13550,
+                "X": 13800,
                 "Y": 300
             },
             "Size": {
@@ -15402,7 +15402,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13850,
+                "X": 14100,
                 "Y": 100
             },
             "Size": {
@@ -15427,7 +15427,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13850,
+                "X": 14100,
                 "Y": 450
             },
             "Size": {
@@ -15452,7 +15452,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14450,
+                "X": 14700,
                 "Y": 100
             },
             "Size": {
@@ -20420,7 +20420,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12800,
+                "X": 13050,
                 "Y": 100
             },
             "Size": {
@@ -25222,7 +25222,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13100,
+                "X": 13350,
                 "Y": 850
             },
             "Size": {
@@ -25300,7 +25300,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14150,
+                "X": 14400,
                 "Y": 450
             },
             "Size": {
@@ -25577,7 +25577,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13100,
+                "X": 13350,
                 "Y": 1150
             },
             "Size": {
@@ -28432,7 +28432,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13000,
+                "X": 13250,
                 "Y": 400
             },
             "Size": {
@@ -32576,7 +32576,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13750,
+                "X": 14000,
                 "Y": 1150
             },
             "Size": {
@@ -33809,7 +33809,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 15500,
+                "X": 15750,
                 "Y": 700
             },
             "Size": {
@@ -41329,7 +41329,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13750,
+                "X": 14000,
                 "Y": 850
             },
             "Size": {
@@ -41351,7 +41351,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 13400,
+                "X": 13650,
                 "Y": 850
             },
             "Size": {
@@ -50213,7 +50213,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14150,
+                "X": 14400,
                 "Y": 100
             },
             "Size": {
@@ -51596,7 +51596,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14150,
+                "X": 14400,
                 "Y": 850
             },
             "Size": {
@@ -55456,7 +55456,7 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 14500,
+                "X": 14750,
                 "Y": 850
             },
             "Size": {
@@ -55990,7 +55990,7 @@
             },
             "Position": {
                 "X": 2250,
-                "Y": 2400
+                "Y": 2850
             },
             "Size": {
                 "X": 255,
@@ -56005,6 +56005,30 @@
             ],
             "bDefaultUnlocked": true,
             "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Stone_Sign_Small",
+            "ExtraData": {
+                "RowName": "Item_Stone_Sign_Small",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 17400,
+                "Y": 1200
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Masonry_Bench",
+                    "DataTableName": "D_Talents"
+                }
+            ]
         },
         {
             "Name": "Brick_Sign_Small",

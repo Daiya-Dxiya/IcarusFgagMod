@@ -3076,6 +3076,99 @@
             "AnimBlueprintClass": "/Game/ASS/WEP/Golem_Gauntlet/SK_3RD_WEP_GolemGauntlet_AnimBP.SK_3RD_WEP_GolemGauntlet_AnimBP_C",
             "FirstPersonAnimBlueprintClass": "/Game/ASS/WEP/Golem_Gauntlet/SK_1ST_WEP_GolemGauntlet_CopyPose_AnimBp.SK_1ST_WEP_GolemGauntlet_CopyPose_AnimBp_C",
             "ArmourType": "Gauntlet"
+        },
+        {
+            "Name": "SandArmor_Backpack",
+            "ArmourMesh": "/Game/ASS/ITM/Backpack_Sand/SK_ITM_Backpack_Sand.SK_ITM_Backpack_Sand",
+            "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
+            "ArmourType": "Backpack"
+        },
+        {
+            "Name": "SandArmor_Head",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Head.SK_CHA_MAL_ARM_Sand_Head",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Head.SK_CHA_MAL_ARM_Sand_Head",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 4,
+                "(Value=\"BaseColdResistance_%\")": 4,
+                "(Value=\"BaseExposureResistance_+%\")": 2,
+                "(Value=\"BaseHeatResistance_%\")": 2
+            },
+            "ArmourType": "Head",
+            "ArmourSet": {
+                "RowName": "Leather"
+            }
+        },
+        {
+            "Name": "SandArmor_Chest",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Chest.SK_CHA_MAL_ARM_Sand_Chest",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Chest.SK_CHA_MAL_ARM_Sand_Chest",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 10,
+                "(Value=\"BaseColdResistance_%\")": 10,
+                "(Value=\"BaseExposureResistance_+%\")": 3,
+                "(Value=\"BaseHeatResistance_%\")": 4
+            },
+            "ArmourType": "Chest",
+            "ArmourSet": {
+                "RowName": "Leather"
+            }
+        },
+        {
+            "Name": "SandArmor_Arms",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Arms.SK_CHA_MAL_ARM_Sand_Arms",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Arms.SK_CHA_MAL_ARM_Sand_Arms",
+            "FirstPersonMeshVariant": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Sand_Arms.SK_1ST_CHA_MAL_ARM_Sand_Arms",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
+            "FirstPersonAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Arm_AnimBP.SK_1ST_CHA_MAL_ARM_Arm_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 4,
+                "(Value=\"BaseColdResistance_%\")": 4,
+                "(Value=\"BaseExposureResistance_+%\")": 2,
+                "(Value=\"BaseHeatResistance_%\")": 1
+            },
+            "ArmourType": "Hands",
+            "ArmourSet": {
+                "RowName": "Leather"
+            }
+        },
+        {
+            "Name": "SandArmor_Legs",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Legs.SK_CHA_MAL_ARM_Sand_Legs",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Legs.SK_CHA_MAL_ARM_Sand_Legs",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 8,
+                "(Value=\"BaseColdResistance_%\")": 5,
+                "(Value=\"BaseExposureResistance_+%\")": 3,
+                "(Value=\"BaseHeatResistance_%\")": 4
+            },
+            "ArmourType": "Legs",
+            "ArmourSet": {
+                "RowName": "Leather"
+            }
+        },
+        {
+            "Name": "SandArmor_Feet",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Feet.SK_CHA_MAL_ARM_Sand_Feet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Feet.SK_CHA_MAL_ARM_Sand_Feet",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 2,
+                "(Value=\"BaseColdResistance_%\")": 2,
+                "(Value=\"BaseExposureResistance_+%\")": 2,
+                "(Value=\"BaseHeatResistance_%\")": 1
+            },
+            "ArmourType": "Feet",
+            "ArmourSet": {
+                "RowName": "Leather"
+            }
         }
     ]
 }

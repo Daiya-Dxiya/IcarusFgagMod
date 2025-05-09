@@ -83848,70 +83848,6 @@
             }
         },
         {
-            "Name": "Ammo_EDS",
-            "Requirement": {
-                "RowName": "Ice_Mammoth_EDS"
-            },
-            "SessionRequirement": {
-                "DataTableName": "None"
-            },
-            "RequiredMillijoules": 1000,
-            "RecipeSets": [
-                {
-                    "RowName": "Great_Hunt_Device",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ],
-            "Inputs": [
-                {
-                    "Element": {
-                        "RowName": "Ammo_Casing",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 5,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Synthetic_Enzymes",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 5,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Volatile_Substance",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Health_Elixir",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 2,
-                    "DynamicProperties": []
-                }
-            ],
-            "Outputs": [
-                {
-                    "Element": {
-                        "RowName": "Ammo_EDS",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "Count": 5,
-                    "DynamicProperties": [],
-                    "Alterations": []
-                }
-            ],
-            "Audio": {
-                "RowName": "MachiningBench"
-            }
-        },
-        {
             "Name": "Ammo_EDS_MissionModified",
             "SessionRequirement": {
                 "DataTableName": "D_SessionFlags",
@@ -84626,83 +84562,6 @@
                 {
                     "Element": {
                         "RowName": "Mission_Explosive_Crafted",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": [],
-                    "Alterations": []
-                }
-            ],
-            "Audio": {
-                "RowName": "MachiningBench"
-            }
-        },
-        {
-            "Name": "Mission_EDSCanister",
-            "SessionRequirement": {
-                "DataTableName": "D_SessionFlags",
-                "RowName": "Mission_EDSCanister"
-            },
-            "RecipeSets": [
-                {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Fabricator",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Great_Hunt_Device",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ],
-            "Inputs": [
-                {
-                    "Element": {
-                        "RowName": "Refined_Metal",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 6,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Synthetic_Enzymes",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 8,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Volatile_Substance",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 5,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Gold_Wire",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 8,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Health_Elixir",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 4,
-                    "DynamicProperties": []
-                }
-            ],
-            "Outputs": [
-                {
-                    "Element": {
-                        "RowName": "Mission_EDSCanister",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
@@ -88569,64 +88428,6 @@
             }
         },
         {
-            "Name": "Enzyme_Elixir",
-            "SessionRequirement": {
-                "DataTableName": "D_SessionFlags",
-                "RowName": "Mission_EnzymeElixir"
-            },
-            "RequiredMillijoules": 10000,
-            "RecipeSets": [
-                {
-                    "RowName": "Medicine_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Chemistry_Bench",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ],
-            "Inputs": [
-                {
-                    "Element": {
-                        "RowName": "Synthetic_Enzymes",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 3,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Charcoal",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 5,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Salt",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 3,
-                    "DynamicProperties": []
-                }
-            ],
-            "Outputs": [
-                {
-                    "Element": {
-                        "RowName": "Enzyme_Elixir",
-                        "DataTableName": "D_ItemTemplate"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": [],
-                    "Alterations": []
-                }
-            ],
-            "Audio": {
-                "RowName": "HerbalismBench"
-            }
-        },
-        {
             "Name": "Seed_Harvester",
             "Requirement": {
                 "RowName": "Farming_Cart_Attachments"
@@ -88729,6 +88530,62 @@
             ],
             "Audio": {
                 "RowName": "SeedExtractor"
+            }
+        },
+        {
+            "Name": "Stone_Sign_Small",
+            "Requirement": {
+                "RowName": "Stone_Sign_Small"
+            },
+            "SessionRequirement": {
+                "DataTableName": "None"
+            },
+            "RequiredMillijoules": 5000,
+            "RecipeSets": [
+                {
+                    "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 16,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Stone_Sign_Small",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MasonryBench"
             }
         },
         {

@@ -834,6 +834,50 @@
             },
             "ScaleFactor": 0,
             "CompassWidgetClass": "WidgetBlueprintGeneratedClass'/Game/UI/Compass/UMG_IcarusCompassIcon_BossDen_Exit.UMG_IcarusCompassIcon_BossDen_Exit_C'"
+        },
+        {
+            "Name": "Prospector_Orange",
+            "WidgetClass": "/Game/BP/Tools/CheatFunctions/CaveTeleport/UMG_TeleportCheatWidget.UMG_TeleportCheatWidget_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 39,
+                "G": 186,
+                "R": 255,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Prospector_Blue",
+            "WidgetClass": "/Game/BP/Tools/CheatFunctions/CaveTeleport/UMG_TeleportCheatWidget.UMG_TeleportCheatWidget_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 255,
+                "G": 165,
+                "R": 66,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Prospector_Green",
+            "WidgetClass": "/Game/BP/Tools/CheatFunctions/CaveTeleport/UMG_TeleportCheatWidget.UMG_TeleportCheatWidget_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Prospector.T_Icon_Map_Prospector'",
+            "Color": {
+                "B": 174,
+                "G": 229,
+                "R": 211,
+                "A": 255
+            }
+        },
+        {
+            "Name": "Beacon_Purple",
+            "WidgetClass": "/Game/BP/Tools/CheatFunctions/CaveTeleport/UMG_TeleportCheatWidget.UMG_TeleportCheatWidget_C",
+            "MapIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_BroadcastForMap.T_ICON_BroadcastForMap'",
+            "Color": {
+                "B": 239,
+                "G": 189,
+                "R": 218,
+                "A": 255
+            }
         }
     ]
 }

@@ -1886,6 +1886,14 @@
                     ]
                 }
             }
+        },
+        {
+            "Name": "Turret",
+            "PickUpSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC_PICKUP.SFX_DEP_GENERIC_PICKUP",
+            "DropSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM",
+            "DamagedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_DMG_METAL.SFX_DEP_DMG_METAL",
+            "BrokenSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_DST_TURRET_DESTROY.SFX_DEP_DST_TURRET_DESTROY",
+            "DestroyedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_ITEM_DESTROY.SFX_ITEM_DESTROY"
         }
     ]
 }

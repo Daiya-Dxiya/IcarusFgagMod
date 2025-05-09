@@ -4289,7 +4289,7 @@
             "Name": "Mesh_Advanced_Aquarium",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Aquarium.BP_Advanced_Aquarium_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ice_Mammoth_Corpse.BP_Ice_Mammoth_Corpse_C"
         },
         {
             "Name": "Mesh_Large_Advanced_Aquarium",
@@ -6016,8 +6016,7 @@
         {
             "Name": "Mesh_Generic_Head",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Aquarium.BP_Advanced_Aquarium_C"
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_Mission_Device",
@@ -7180,7 +7179,7 @@
             "ItemMesh": "/Game/ASS/ENV/RCK/SM_CF_Rocks/SM_ROCK_CF_Stone_01.SM_ROCK_CF_Stone_01"
         },
         {
-            "Name": "Mesh_Mission_EDSCanister",
+            "Name": "Mesh_Mission_Neurotoxic_Aerosol",
             "ItemMesh": "/Game/ASS/ITM/MetaConsumable/SM_ITM_Meta_LiquidConsumable_v3.SM_ITM_Meta_LiquidConsumable_v3"
         },
         {
@@ -7241,8 +7240,8 @@
         },
         {
             "Name": "Mesh_Recovery_Beacon_Scanner",
-            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Scan_Handheld_Needle_T4.SK_ITM_Scan_Handheld_Needle_T4",
-            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Scan_Handheld_Needle_T4.SK_ITM_Scan_Handheld_Needle_T4",
+            "ItemMesh": "/Game/ASS/ITM/Scan_Handheld_ECHO/SK_ITM_Scan_Handheld_ECHO.SK_ITM_Scan_Handheld_ECHO",
+            "EquipHandMesh": "/Game/ASS/ITM/Scan_Handheld_ECHO/SK_ITM_Scan_Handheld_ECHO.SK_ITM_Scan_Handheld_ECHO",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Recovery_Beacon_Tracker.BP_SkeletalItem_Recovery_Beacon_Tracker_C"
         },
         {
@@ -7255,6 +7254,42 @@
             "ItemMesh": "/Game/ASS/DEP/Bunker_Props/SM_Bunker_Prop_2.SM_Bunker_Prop_2",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Ape_Sonic_Device.BP_Ape_Sonic_Device_C"
+        },
+        {
+            "Name": "Mesh_Faction_Mission_DownLaser",
+            "ItemMesh": "/Game/ASS/DEP/SK_DEP_Disruption_Heat_Assembled.SK_DEP_Disruption_Heat_Assembled",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Faction_Mission_Laser_Ground.BP_Faction_Mission_Laser_Ground_C"
+        },
+        {
+            "Name": "Mesh_SandArmor_ArmorPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_LeatherPack.SM_CHA_ARM_LeatherPack",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_SandArmor_Backpack",
+            "ItemMesh": "/Game/ASS/ITM/Backpack_Sand/SK_ITM_Backpack_Sand.SK_ITM_Backpack_Sand",
+            "EquipBackMesh": "/Game/ASS/ITM/Backpack_Sand/SK_ITM_Backpack_Sand.SK_ITM_Backpack_Sand"
+        },
+        {
+            "Name": "Mesh_Snow_Mammoth_Trophy",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Mammoth_Icy_Trophy.BP_Mammoth_Icy_Trophy_C"
+        },
+        {
+            "Name": "Mesh_Snow_Slug_Trophy",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Ice_Viscid.BP_Trophy_Ice_Viscid_C"
+        },
+        {
+            "Name": "Mesh_Mission_Vesper_Cage",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/DEP/SM_DEP_Trap_Small_T4.SM_DEP_Trap_Small_T4",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Back/BP_Back_Vesper_Cage.BP_Back_Vesper_Cage_C",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Traps/BP_Animal_Trap_Small_T4.BP_Animal_Trap_Small_T4_C"
         }
     ]
 }

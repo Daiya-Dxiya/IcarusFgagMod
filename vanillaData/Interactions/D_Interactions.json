@@ -696,6 +696,26 @@
             "InteractCooldown": 2,
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Teleport_Leave-InteractionText\", \"Leave\")",
             "bShowInteractionWhenUnavailable": true
+        },
+        {
+            "Name": "Interact_SwapArmour",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_SwapArmour.BP_Interactable_SwapArmour_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_SwapArmour-InteractionText\", \"Swap Armor\")"
+        },
+        {
+            "Name": "Interact_Vesper_Cage",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Vesper_Cage.BP_Interactable_Vesper_Cage_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Vesper_Cage-InteractionText\", \"Place In Vesper Cage\")"
+        },
+        {
+            "Name": "Interact_Infect_Vesper",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Trap_InfectVesper.BP_Interactable_Interact_Trap_InfectVesper_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Infect_Vesper-InteractionText\", \"Infect Vesper\")"
+        },
+        {
+            "Name": "Interact_Release_Vesper",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Trap_Release_Vesper.BP_Interactable_Interact_Trap_Release_Vesper_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_Release_Vesper-InteractionText\", \"Release Vesper\")"
         }
     ]
 }

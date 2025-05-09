@@ -277,7 +277,10 @@
             "Name": "Mission_EDSCanister"
         },
         {
-            "Name": "Mission_EnzymeElixir"
+            "Name": "Mission_EnzymePropagationUnit"
+        },
+        {
+            "Name": "Mission_Animals_Drop_Biotags"
         }
     ]
 }

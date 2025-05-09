@@ -605,6 +605,21 @@
             }
         },
         {
+            "Name": "Elysium_Geothermal_Upper",
+            "VoxelDistribution": {
+                "(RowName=\"Oxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
+                "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
+                "(RowName=\"Salt_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
+                "(RowName=\"Bauxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,
+                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 1
+            },
+            "VoxelColor": {
+                "R": 0.9583330154418945,
+                "G": 0.7194849848747253,
+                "B": 0.11080799996852875
+            }
+        },
+        {
             "Name": "Elysium_Geothermal_Ridges",
             "VoxelDistribution": {
                 "(RowName=\"Oxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 1,

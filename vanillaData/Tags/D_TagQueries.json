@@ -7255,6 +7255,24 @@
                 "AutoDescription": " ALL( Item.Attachment.HarvestCart )"
             },
             "DisplayName": "NSLOCTEXT(\"D_TagQueries\", \"Any_Harvester_Attachment-DisplayName\", \"Harvester Attachment\")"
+        },
+        {
+            "Name": "WorldObject_MiningDamageOnly",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "WorldObject.MiningDamageOnly"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( WorldObject.MiningDamageOnly )"
+            }
         }
     ]
 }

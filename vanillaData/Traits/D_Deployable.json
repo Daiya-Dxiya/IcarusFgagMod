@@ -7560,10 +7560,10 @@
             "EffectedByWeather": false
         },
         {
-            "Name": "Mission_EDSCanister",
+            "Name": "Mission_Neurotoxic_Aerosol",
             "Variants": [
                 {
-                    "RowName": "Mission_EDSCanister",
+                    "RowName": "Mission_Neurotoxic_Aerosol",
                     "DataTableName": "D_DeployableSetup"
                 }
             ]
@@ -8130,6 +8130,147 @@
                 },
                 {
                     "RowName": "Stone_Sign_Angled",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Faction_Mission_DownLaser",
+            "Variants": [
+                {
+                    "RowName": "Faction_Mission_DownLaser",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Snow_Mammoth_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Snow_Mammoth_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Snow_Slug_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Snow_Slug_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Unit",
+            "Variants": [
+                {
+                    "RowName": "Mission_Enzyme_Propogation_Unit",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Unit_Craftable",
+            "Variants": [
+                {
+                    "RowName": "Mission_Enzyme_Propogation_Unit_Craftable",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Mission_Enzyme_Propogation_Hub",
+            "Variants": [
+                {
+                    "RowName": "Mission_Enzyme_Propogation_Hub",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Gas_Fireplace",
+            "Variants": [
+                {
+                    "RowName": "Gas_Fireplace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Gas_Fireplace_Ext",
+            "Variants": [
+                {
+                    "RowName": "Gas_Fireplace_Ext",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Gas_Fireplace_Cap",
+            "Variants": [
+                {
+                    "RowName": "Gas_Fireplace_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Gas_Fireplace_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Electric_Fireplace",
+            "Variants": [
+                {
+                    "RowName": "Electric_Fireplace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Electric_Fireplace_Ext",
+            "Variants": [
+                {
+                    "RowName": "Electric_Fireplace_Ext",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Electric_Fireplace_Cap",
+            "Variants": [
+                {
+                    "RowName": "Electric_Fireplace_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Electric_Fireplace_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Mission_Vesper_Cage",
+            "Variants": [
+                {
+                    "RowName": "Mission_Vesper_Cage",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

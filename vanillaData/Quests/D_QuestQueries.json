@@ -8192,6 +8192,24 @@
             }
         },
         {
+            "Name": "GH_IM_O1_D",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O1.D"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O1.D )"
+            }
+        },
+        {
             "Name": "GH_IM_O1_Evac",
             "Query": {
                 "TagDictionary": [
@@ -8351,6 +8369,352 @@
                     0
                 ],
                 "AutoDescription": " ANY( GreatHunts.Ape.D2 )"
+            }
+        },
+        {
+            "Name": "GH_Ape_G",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.Ape.G"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.Ape.G )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_Wolf",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.Wolf"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.Wolf )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_Viscid",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.Viscid"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.Viscid )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_PolarBear",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.PolarBear"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.PolarBear )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_MachineA",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.MachineA"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.MachineA )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_MachineB",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.MachineB"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.MachineB )"
+            }
+        },
+        {
+            "Name": "GH_IM_A2_SearchArea",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.A2.Search"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.A2.Search )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Spawn",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Spawner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Spawner )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.1 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.2 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.3 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D3_Bat4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D3.Bat.4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D3.Bat.4 )"
+            }
+        },
+        {
+            "Name": "GH_IM_D_Cage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.D.Cage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.D.Cage )"
+            }
+        },
+        {
+            "Name": "GH_IM_O3_A",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O3.A"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O3.A )"
+            }
+        },
+        {
+            "Name": "GH_IM_O3_B",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O3.B"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GreatHunts.IceMammoth.O3.B )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Nest",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Nest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Nest )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Vesper",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Vesper"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Vesper )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Cave",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Vesper"
+                    },
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Cave"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Vesper, GreatHunts.IceMammoth.O2.Cave )"
+            }
+        },
+        {
+            "Name": "GH_IM_O2_Entrance",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GreatHunts.IceMammoth.O2.Entrance"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GreatHunts.IceMammoth.O2.Entrance )"
             }
         }
     ]
